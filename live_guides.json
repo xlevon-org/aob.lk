@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Which Crash Boom Flip Index fits your trading style?",
+    "slug": "which-crash-boom-flip-index-fits-your-trading-style",
+    "url": "/trading-guides/which-crash-boom-flip-index-fits-your-trading-style",
+    "coverImage": "https://cdn.prod.website-files.com/67c5ccce25ee4e53514167ac/6a991614dd2e23a42fc4fbfc_imagegen-537e3bdf-openai__generic_2.webp",
+    "description": "Compare Flip 150, 300, 500, and 1000 to find the pace that matches how you trade.",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Flip vs Crash and Boom Indices explained",
+    "slug": "flip-vs-crash-and-boom-indices-explained",
+    "url": "/trading-guides/flip-vs-crash-and-boom-indices-explained",
+    "coverImage": "https://cdn.prod.website-files.com/67c5ccce25ee4e53514167ac/6a8ec2b325665f7327830ec0_Himawan%27s%20design%20(4).png",
+    "description": "Crash/Boom indices have fixed directions. Flip Indices move randomly, though both share the same trading mechanics.",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "What is a Crash Boom Flip Index and how does it work?",
+    "slug": "what-is-a-crash-boom-flip-index-and-how-does-it-work",
+    "url": "/trading-guides/what-is-a-crash-boom-flip-index-and-how-does-it-work",
+    "coverImage": "https://cdn.prod.website-files.com/67c5ccce25ee4e53514167ac/6a8fed055f737fe02f73099f_imagegen-861451b1-openai__generic_2.webp",
+    "description": "Unlike standard indices, Crash Boom Flip Indices cycle between phases, making them ideal for trend and reversal strategies.",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "How to connect your Deriv account to TradingView",
+    "slug": "how-to-connect-your-deriv-account-to-tradingview",
+    "url": "/trading-guides/how-to-connect-your-deriv-account-to-tradingview",
+    "coverImage": "https://cdn.prod.website-files.com/67c5ccce25ee4e53514167ac/6a0fac06fe911070b6ed210a_6a0e5aa4c8b25e29769f8fdc_20May.webp",
+    "description": "Want to trade on Deriv without leaving TradingView&#x27;s charts? You can now connect the two accounts and place trades directly from your favourite chart setup.",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Why are HFV Indices used for short-term trading?",
+    "slug": "why-hfv-indices-used-for-short-term-trading",
+    "url": "/trading-guides/why-hfv-indices-used-for-short-term-trading",
+    "coverImage": "https://cdn.prod.website-files.com/67c5ccce25ee4e53514167ac/6a4caaebe82b6832d745e6f5_0.webp",
+    "description": "HFV Indices offer constant, rapid price updates. Learn about market dynamics and considerations for short-term traders.",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "How to start trading High Frequency Volatility Indices on Deriv MT5?",
+    "slug": "how-to-start-trading-hfv-indices-on-deriv-mt5",
+    "url": "/trading-guides/how-to-start-trading-hfv-indices-on-deriv-mt5",
+    "coverImage": "https://cdn.prod.website-files.com/67c5ccce25ee4e53514167ac/6a3b867097c1966580ef69b4_Gemini_Generated_Image_8bex9g8bex9g8bex.webp",
+    "description": "Learn how to start trading High Frequency Volatility Indices on Deriv MT5 with this step-by-step guide.",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "High Frequency Volatility Indices: A complete trading guide",
+    "slug": "high-frequency-volatility-indices-guide",
+    "url": "/trading-guides/high-frequency-volatility-indices-guide",
+    "coverImage": "https://cdn.prod.website-files.com/67c5ccce25ee4e53514167ac/6a1a382f0a092eeeb61ef22b_6a19505661facbefc5fada54_ChatGPT%2520Image%2520May%252029%252C%25202026%252C%252004_30_51%2520PM.webp",
+    "description": "High Frequency Volatility Indices (2 ticks/sec) are for scalping. Use strict stop-loss and position sizing on Deriv.",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Why did my stop-loss close at a different price on Boom and Crash Indices?",
+    "slug": "stop-loss-execution-boom-crash-indices",
+    "url": "/trading-guides/stop-loss-execution-boom-crash-indices",
+    "coverImage": "https://cdn.prod.website-files.com/67c5ccce25ee4e53514167ac/6a2221cef6b4be80fd7818c6_6a2156b3910d2e6a1c539595_stop%2520loss%2520different%2520price.webp",
+    "description": "Here\u2019s how the difference between stop-loss price and execution price works.",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "How to trade Synthetic Indices using TradingView",
+    "slug": "trade-synthetic-indices-tradingview",
+    "url": "/trading-guides/trade-synthetic-indices-tradingview",
+    "coverImage": "https://cdn.prod.website-files.com/67c5ccce25ee4e53514167ac/6a26ae0b1ca06c5d20a05c30_How%20to%20trade%20synthetic%20indices%20using%20TradingView.webp",
+    "description": "Synthetic Indices are available on TradingView through Deriv. This means you can connect your Deriv account to TradingView, use TradingView\u2019s charts and tools, and place trades on Synthetic Indices through your Deriv account.",
+    "readTime": "5 min read"
+  }
+]
