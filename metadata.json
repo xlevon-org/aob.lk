@@ -1,6 +1,0 @@
-{
-  "name": "Deriv Traders Academy",
-  "description": "Pixel-perfect clone of Deriv Traders Academy featuring trading guides, interactive courses, ebooks, video lessons, and comprehensive financial glossary.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}

@@ -1,0 +1,120 @@
+@import "tailwindcss";
+
+/* Ensure Webflow Enterprise Design System Typography is preserved over Tailwind resets */
+@layer base {
+  h1, .heading-style-h1 {
+    font-size: 3.5rem;
+    line-height: 1.15;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #0e0e0e;
+  }
+  h2, .heading-style-h2 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: #0e0e0e;
+  }
+  h3, .heading-style-h3 {
+    font-size: 1.75rem;
+    line-height: 1.3;
+    font-weight: 700;
+    color: #0e0e0e;
+  }
+  h4, .heading-style-h4 {
+    font-size: 1.5rem;
+    line-height: 1.35;
+    font-weight: 700;
+    color: #0e0e0e;
+  }
+  h5, .heading-style-h5 {
+    font-size: 1.375rem;
+    line-height: 1.4;
+    font-weight: 700;
+    color: #0e0e0e;
+  }
+  h6, .heading-style-h6 {
+    font-size: 1.25rem;
+    line-height: 1.4;
+    font-weight: 700;
+    color: #0e0e0e;
+  }
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333333;
+    margin-bottom: 0.75rem;
+  }
+}
+
+@theme {
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-heading: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Deriv Brand Colors */
+  --color-deriv-coral: #ff444f;
+  --color-deriv-coral-hover: #eb3e48;
+  --color-deriv-coral-active: #d4353e;
+  --color-deriv-coral-light: #fff1f2;
+  --color-deriv-coral-subtle: #ffeaeb;
+  
+  --color-deriv-black: #0e0e0e;
+  --color-deriv-dark: #15171c;
+  --color-deriv-card-dark: #1d2027;
+  --color-deriv-charcoal: #333333;
+  
+  --color-deriv-text-main: #111111;
+  --color-deriv-text-muted: #6e6e6e;
+  --color-deriv-text-placeholder: #999999;
+  
+  --color-deriv-gray-light: #f8f9fa;
+  --color-deriv-gray-border: #e6e9ea;
+  --color-deriv-surface-gray: #f2f3f5;
+  
+  --color-deriv-green: #008832;
+  --color-deriv-green-light: #e8f7ee;
+  --color-deriv-blue: #2196f3;
+  --color-deriv-blue-light: #e3f2fd;
+  --color-deriv-amber: #f59e0b;
+  --color-deriv-amber-light: #fef3c7;
+  --color-deriv-purple: #8b5cf6;
+  --color-deriv-purple-light: #f3e8ff;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    color: #111111;
+    background-color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Custom Deriv Academy Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f2f4;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c2c7cc;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9fa6ad;
+}

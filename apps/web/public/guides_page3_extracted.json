@@ -1,0 +1,74 @@
+[
+  {
+    "link": "/trading-guides/hybrid-indices-synthetic-trading",
+    "img": "https://cdn.prod.website-files.com/67c5ccce25ee4e53514167ac/68c12c99742f45bfac4e5128_67eb6e6cc07bed2fe114ee0c_meet-hybrid%2520indices.webp",
+    "title": "Meet Hybrid Indices: A new twist on synthetic trading",
+    "readTime": "5",
+    "summary": "The trading world at Deriv just got a whole lot more exciting! Say hello to Hybrid Indices, the latest evolution in synthetic trading.",
+    "category": "CFDs &amp; Options"
+  },
+  {
+    "link": "/trading-guides/liquid-markets-why-market-liquidity-matters",
+    "img": "https://cdn.prod.website-files.com/67c5ccce25ee4e53514167ac/69e8972a99cfb8ffcc0dc384_6931af37297be26b9ecd52cf_Screenshot%25202025-11-28%2520at%25204.13.23%25E2%2580%25AFPM.png",
+    "title": "Most liquid markets: A complete guide to market liquidity",
+    "readTime": "10",
+    "summary": "Market liquidity refers to how quickly and easily an asset can be bought or sold without significantly affecting its price. In other words, liquidity determines how smoothly trades happen - and that directly affects a trader’s experience.",
+    "category": "MT5"
+  },
+  {
+    "link": "/trading-guides/trading-gold-silver-2026-insights",
+    "img": "https://cdn.prod.website-files.com/67c5ccce25ee4e53514167ac/69e89704fe5b50e90aaa9bfb_696767bb3db6e00cfe674d77_gold%2520silver%25202026.png",
+    "title": "Gold and silver in 2026: market momentum, key drivers, and expert insights for smarter trades",
+    "readTime": "7",
+    "summary": "Gold and silver are likely to remain volatile markets with potential opportunities in 2026 as macroeconomic uncertainty, shifting monetary policy, and geopolitical risk continue to influence price action.",
+    "category": "CFDs &amp; Options"
+  },
+  {
+    "link": "/trading-guides/risk-management-with-average-true-range-indicator",
+    "img": "https://cdn.prod.website-files.com/67c5ccce25ee4e53514167ac/68c12c9c6ae2801ec9656267_67efa2b9b60d56f28f7c71af_enhancing-risk-management.webp",
+    "title": "Mastering risk management with the Average True Range (ATR) indicator",
+    "readTime": "5",
+    "summary": "Risk management is the secret sauce to long-term trading success.",
+    "category": "Trading Strategies"
+  },
+  {
+    "link": "/trading-guides/deriv-nakala-copy-trading-app-setup-guide",
+    "img": "https://cdn.prod.website-files.com/67c5ccce25ee4e53514167ac/69e8979d5ea87d600b337977_68c12c9bd59160564fd412df_68995aa11bda74f989d08f9a_9817d7bd71b3aa4f1022c427ab4f9cda52f4be23.jpeg",
+    "title": "Deriv Nakala: How to set up Deriv’s new copy trading app",
+    "readTime": "5",
+    "summary": "Learn how to start using our copy trading app, Deriv Nakala. Set up your MT5 Standard account, find and start copying expert traders in minutes.",
+    "category": "Copytrading"
+  },
+  {
+    "link": "/trading-guides/guide-to-becoming-a-signal-provider-on-nakala",
+    "img": "https://cdn.prod.website-files.com/67c5ccce25ee4e53514167ac/69e8979dc9ffa6a68dae30bf_68c12c9af6b7d95798eb75a7_689b3f230af0e8f994bede03_Guide_%252520Becoming%252520a%252520signal%252520provider%252520for%252520Nakala.png",
+    "title": "How and why to become a signal provider on Deriv Nakala",
+    "readTime": "6",
+    "summary": "This guide walks you through the benefits of being a strategy provider on Deriv Nakala, how to get started, and how to fine-tune your profile to attract followers and maximise your impact.",
+    "category": "Copytrading"
+  },
+  {
+    "link": "/trading-guides/beginners-guide-to-trek-up-and-down-index",
+    "img": "https://cdn.prod.website-files.com/67c5ccce25ee4e53514167ac/68c12ca3ec0e82a99f9aad52_6822f0fdc2fdeaff8c8c02a1_Trek%2520Up%2520%2526%2520Down.webp",
+    "title": "Beyond ordinary indices: Harnessing Trek Indices for 24/7 market action",
+    "readTime": "5",
+    "summary": "Built on mathematically-modeled Weibull patterns, Trek Indices provide a simulated market environment that closely mimics real market dynamics—but without the unpredictability of news or global events.",
+    "category": "Indices"
+  },
+  {
+    "link": "/trading-guides/forex-pairs-explained-for-new-traders",
+    "img": "https://cdn.prod.website-files.com/67c5ccce25ee4e53514167ac/68c12ca49181d90c87cd0b2b_67f34d1a4c514c8de89c0bf2_forex-pairs-explained-for-new-traders.webp",
+    "title": "How forex pairs work and why they matter",
+    "readTime": "4",
+    "summary": "Forex pairs quote the value of a base currency against a quote currency, with moves measured in pips and costs determined by the spread.",
+    "category": "CFDs &amp; Options"
+  },
+  {
+    "link": "/trading-guides/long-trade-explained-risk-management",
+    "img": "https://cdn.prod.website-files.com/67c5ccce25ee4e53514167ac/68c12c9b5e40168b99111b7b_67eddafe223c2d7678c042b4_mastering-short-term.webp",
+    "title": "Long trade explained: Entries, exits, and risk management",
+    "readTime": "6",
+    "summary": "Trading is a bit like playing games-fast and thrilling like Jenga, or slow and strategic like chess.",
+    "category": "CFDs &amp; Options"
+  }
+]

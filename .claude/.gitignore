@@ -1,0 +1,5 @@
+# Per-machine overrides: never shared.
+settings.local.json
+
+# Written at runtime, not source.
+execution.log

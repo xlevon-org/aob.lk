@@ -1,0 +1,6 @@
+{
+  "name": "Academy of Binary (AOB)",
+  "description": "Academy of Binary (AOB) - Official Deriv Promoter in Bandarawela, Sri Lanka. Offering specialized binary trading courses, guides, and automated Deriv trading bots.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

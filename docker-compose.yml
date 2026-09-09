@@ -1,0 +1,69 @@
+# Local Docker deployment of all three ZOVAX deployables.
+#
+# WHAT THIS DOES AND DOES NOT DO, STATED PLAINLY:
+#
+# - There is no MongoDB or Cloudinary container here. `apps/api`'s real
+#   `ConfigService` has no local/test-database override of any kind (unlike
+#   the `TestConfigService` subclass this project's own integration tests
+#   use, which exists only in test files, never shipped) - confirmed by
+#   reading `ConfigService.ts` directly: `mongodbDatabase` is a hardcoded
+#   constant, `'zovax'`, with no env-var indirection. Every container here
+#   connects to the SAME real MongoDB Atlas cluster and the same real
+#   Cloudinary account this entire engagement has already been testing
+#   against - `.env`'s real `MONGODB_URI`. Bringing this stack up is not a
+#   sandboxed rehearsal; it is another real client of the real, already-
+#   populated `zovax` production database. Stated here so it is never
+#   mistaken for an isolated local environment.
+#
+# - `CORS_ORIGINS` is OVERRIDDEN below, not read from `.env` unmodified -
+#   a real, disclosed, pre-existing gap found earlier in this engagement:
+#   the tracked `.env`'s own `CORS_ORIGINS` value includes the storefront's
+#   origin but not the admin portal's, on any port, so the admin container
+#   could never successfully call the API otherwise. This override is a
+#   runtime environment variable set here, in a file this project's own
+#   `.gitignore` does NOT exclude - it never touches the real `.env` file,
+#   and does not fix the underlying gap for a real deployment (Render still
+#   needs an operator to add the admin portal's real deployed origin).
+#
+# - `VITE_API_BASE_URL` is a build ARG, not a runtime environment variable -
+#   see `apps/web/Dockerfile`'s own comment for why: Vite bakes it into the
+#   static JS bundle at `docker build` time, so it cannot be supplied later
+#   at `docker run` time the way `api`'s own env vars can.
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
+    ports:
+      - "3001:3001"
+    env_file:
+      - .env
+    environment:
+      PORT: "3001"
+      CORS_ORIGINS: "http://localhost:5000,http://localhost:3002,http://localhost:4174"
+    restart: unless-stopped
+
+  web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
+      args:
+        VITE_API_BASE_URL: "http://localhost:3001"
+    ports:
+      - "5000:80"
+    depends_on:
+      - api
+    restart: unless-stopped
+
+  admin:
+    build:
+      context: .
+      dockerfile: apps/admin/Dockerfile
+      args:
+        VITE_API_BASE_URL: "http://localhost:3001"
+    ports:
+      - "3002:80"
+    depends_on:
+      - api
+    restart: unless-stopped
